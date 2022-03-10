@@ -1,0 +1,36 @@
+body {
+  background-color: gray;
+  padding: 0px;
+}
+#Logo {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 0.4%;
+}
+
+ul {
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  font-weight: 600;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  /*width: 6%;*/
+  padding-left: 10px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+#welcome {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
