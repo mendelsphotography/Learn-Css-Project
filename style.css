@@ -1,6 +1,5 @@
 body {
   background-color: gray;
-  padding: 0px;
 }
 #Logo {
   display: inline-block;
@@ -33,4 +32,21 @@ li a {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 600;
+}
+/* Spacer*/
+.spacer {
+  margin-top: 70px;
+}
+
+/* Flexbox Start*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Gallery {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
 }
