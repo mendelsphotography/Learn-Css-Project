@@ -1,11 +1,12 @@
 body {
-  background-color: gray;
+  background-color: #b3b3b3;
+  margin: 0px;
 }
 #Logo {
   display: inline-block;
   width: 100px;
   height: 100px;
-  margin-right: 0.4%;
+  margin-left: 0.8%;
 }
 
 ul {
@@ -20,11 +21,16 @@ li {
   display: inline-block;
   /*width: 6%;*/
   padding-left: 10px;
+  margin-right: 1.2%;
 }
 
 li a {
-  color: white;
+  color: black;
   text-decoration: none;
+}
+/* Spacer*/
+.spacer1 {
+  margin-top: 150px;
 }
 
 #welcome {
@@ -32,6 +38,10 @@ li a {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 600;
+  /* border-bottom: 2px solid pink;
+  border-right: 2px solid pink; */
+  width: 10px 0px 0px;
+  box-shadow: 8px 8px 10px #000000;
 }
 /* Spacer*/
 .spacer {
@@ -42,11 +52,16 @@ li a {
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
 }
 
 .Gallery {
-  width: 450px;
-  height: 300px;
+  width: 395px;
+  height: 245px;
   margin: 10px;
+  transition: all 1s;
+}
+
+.Gallery:hover {
+  transform: scale(1.1);
 }
